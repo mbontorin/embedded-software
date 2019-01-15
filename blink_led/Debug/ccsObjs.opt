@@ -1,0 +1,1 @@
+"./main.o" "./memory.o" "./startup_msp432p4111_gcc.o" "./system_msp432p4111.o" -Wl,-T"../msp432p4111.lds" -Wl,--start-group -lgcc -lnosys -lc -Wl,--end-group 
